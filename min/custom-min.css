@@ -5,10 +5,10 @@
 #intro,#work,#team{padding-top:4rem}
 #index-banner{min-height:632px;max-height:864px;position:relative;
   /*background-color:#2196F3*/
-  background: #93cede;
+  background-color: #93cede;
 /* Old Browsers */background: -moz-radial-gradient(center, ellipse cover, #93cede 0%, #75bdd1 41%, #2195f3 100%);
  /* FF3.6+ */background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #93cede), color-stop(41%, #75bdd1), color-stop(100%, #2195f3));
-/* Chrome, Safari4+ */background: -webkit-radial-gradient(center, ellipse cover, #93cede 0%, #75bdd1 41%, #2195f3 100%);
+/* Chrome, Safari4+ */background-color: -webkit-radial-gradient(center, ellipse cover, #93cede 0%, #75bdd1 41%, #2195f3 100%);
  /* Chrome10+,Safari5.1+ */background: -o-radial-gradient(center, ellipse cover, #93cede 0%, #75bdd1 41%, #2195f3 100%);
  /* Opera 11.10+ */background: -ms-radial-gradient(center, ellipse cover, #93cede 0%, #75bdd1 41%, #2195f3 100%);
  /* IE 10+ */background: radial-gradient(ellipse at center, #93cede 0%, #75bdd1 41%, #2195f3 100%);
