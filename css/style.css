@@ -113,7 +113,7 @@ nav ul a {
     -moz-animation: cd-pulse 1s infinite;
     animation: cd-pulse 1s infinite;
 }
-.cd-headline.type {
+.cd-headline.type .cd-words-wrapper.selected{
     background-color: #FFF;
 }
 
