@@ -5144,7 +5144,8 @@ nav ul a span.badge {
         width: 25%;
         margin-left: 0; }
       .row .col.m4 {
-        width: 33.33333%;
+        width: 16.66666667%;
+        /*width: 33.33333%;*/
         margin-left: 0; }
       .row .col.m5 {
         width: 41.66667%;
