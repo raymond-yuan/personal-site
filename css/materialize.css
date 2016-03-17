@@ -1775,7 +1775,11 @@ sub {
  */
 img {
   border: 0; }
-
+  
+.clip-circle {
+  -webkit-clip-path: circle(35% at 50% 50%)
+  }
+}
 /**
  * Correct overflow not hidden in IE 9/10/11.
  */
