@@ -1778,7 +1778,7 @@ img {
   
 .clip-circle {
   width: 100%;
-  -webkit-clip-path: circle(35% at 50% 50%)
+  -webkit-clip-path: circle(50% at 50% 50%)
   }
 }
 /**
