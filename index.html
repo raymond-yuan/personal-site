@@ -64,6 +64,7 @@
 					<h2>Biography</h2>
 
 					<p>I'm currently a junior at Rice University, pursuing Bachelor of Sciences in Mathematics and Computer Science. I love learning, I'm passionate, hard working, and a quick study. In terms of my interests, I love coffee, dogs, drawing, coding, and reading.
+						This summer, I'll be headed to Google doing a software engineering internship on the Keras/Tensorflow team.  
 						Read on and follow me on my social media below!</p>
 					<ul class="icons">
 						<li><a href="https://www.linkedin.com/in/raymond-yuan-70472a114" class="icon fa-linkedin"><span class="label">Linkedin</span></a></li>
@@ -228,6 +229,16 @@
 					<p>Here are my projects from the past couple years, ranging from those on github, wolfram demonstrations, to class projects. Unfortunately, lots of them were developed in private repos, but enjoy some of these that weren't! :)</p>
 				</header>
 				<ul class="features">
+					<li class="icon fa-comments">
+						<h3><a href="https://github.com/raymond-yuan/toxic-comments">Classifying Toxic Comments</a></h3>
+						<p>Classified wikipedia comments for six possible types of comment toxicity (toxic, severe_toxic, obscene, threat, insult, identity_hate: multilabel classification). Implemented in Keras using fasttext embeddings, bidirectional GRU, spatial dropout and 1D Convolution.
+							I also used a meta-learner in a superlearn blending style to ensemble different models. Classified with 0.9855 ROC AUC loss.</p>
+					</li>
+					<li class="icon fa-car">
+						<h3><a href="https://github.com/raymond-yuan/rice-self-driving">Rice Self Driving Car</a></h3>
+						<p>I created and tested several models to solve the problem of predicting steering angle purely from video input feed. The best model was a Vision + LSTM stacked model: The images were first preprocessed with a vision stack comprised of
+						a 3D CNN with 5 fully connected layers. This was then stacked on an RNN. The presented model is based on three key components: a 3D-CNN, a loss function built to generalize, and temporal context.</p>
+					</li>
 					<li class="icon fa-paper-plane-o">
 						<h3><a href="http://demonstrations.wolfram.com/author.html?author=Raymond%20Yuan">Wolfram Demonstrations</a></h3>
 						<p>Bringing my ideas to life through the power of Wolfram Mathematica. Check it out!</p>
