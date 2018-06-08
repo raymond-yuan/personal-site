@@ -1480,9 +1480,9 @@
 
 	.image-cropper {
 		margin: auto;
-    width: 250px;
-    height: 250px;
-    /*position: relative;*/
+    width: 400px;
+    height: 400px;
+    position: relative;
     overflow: hidden;
     border-radius: 50%;
 }
